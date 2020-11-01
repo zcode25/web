@@ -1,0 +1,194 @@
+/* Jumbotron */
+
+.jumbotron {
+	margin-top: 59px;
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position: 0 -10px;
+	background-attachment: fixed;
+	height: 440px;
+	position: relative;
+}
+
+.jumbotron .container {
+	z-index: 1;
+	position: relative;
+}
+
+.jumbotron:after {
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron .display-4 {
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: 150px;
+	margin-bottom: 30px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+
+.tentang {
+	padding: 50px 0 50px 0;
+	margin-top: 100px;
+}
+
+.tentang h2 {
+	margin-bottom: 50px;
+}
+
+.tentang h4 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.tentang .visi p {
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: lighter;
+}
+
+.tentang h5 {
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.visi h4, .visi p {
+	text-align: left;
+}
+
+.teknologi {
+	padding: 50px 0 50px 0;
+	margin-top: 100px;
+	background-color: rgba(0,0,0,.9);
+}
+
+.teknologi h2 {
+	color: white;
+}
+
+.teknologi p {
+	color: white;
+	font-weight: lighter;
+}
+
+.teknologi h5 {
+	color: white;
+}
+
+.portfolio {
+	padding: 50px 0 50px 0;
+	margin-top: 100px;
+}
+
+.portfolio h2 {
+	margin-bottom: 50px;
+}
+
+.teknologi .col-md {
+	margin-bottom: 50px;
+}
+
+
+
+.profil {
+	padding: 50px 0 50px 0;
+	margin-top: 100px;
+	background-color: #ff9900;
+}
+
+.profil h2 {
+	margin-bottom: 50px;
+}
+
+.profil img {
+	width: 250px;
+	height: 250px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.profil img:hover {
+	filter: grayscale(0%);
+	transform: rotate(360deg);
+}
+
+.profil .span {
+	margin-top: -10px;
+}
+
+.profil .span, .profil p , .profil h4 {
+	text-align: center;
+}
+
+.hubungi {
+	padding: 50px 0 50px 0;
+	margin-top: 100px;
+}
+
+.hubungi h2 {
+	margin-bottom: 50px;
+}
+
+.hubungi img {
+	width: 100px;
+	height: 100px;
+}
+
+.hubungi .col-md {
+	margin-bottom: 50px;
+}
+
+.footer {
+	margin-top: 100px;
+	padding: 50px 0 50px 0;
+	background-color: rgba(0,0,0.9);
+	color: white;
+}
+
+.footer h2 {
+	font-weight: bold;
+}
+
+.footer h5 {
+	font-weight: lighter;
+}
+
+
+
+
+@media (min-width: 992px) { 
+
+	.jumbotron {
+		height: 640px;
+		background-position: 0 -250px;
+	}
+
+	.jumbotron .display-4 {
+		font-size: 45px;
+	}
+
+	.tentang .visi p {
+		font-size: 20px;
+	}
+
+	.tentang h5 {
+		font-size: 20px;
+	}
+
+	.teknologi .col-md {
+		margin-bottom: 0;
+	}
+
+	.profil .span, .profil p , .profil h4 {
+		text-align: left;
+	}
+}
