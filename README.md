@@ -4,7 +4,7 @@ This repository is ZCODE Web Portfolio Old Version.
 ## Technology used
 - HTML
 - CSS
-- Java Script
+- JavaScript
 - Framework Bootstrap
 
 ## My Instagram :
