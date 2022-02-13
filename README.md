@@ -7,6 +7,6 @@ This repository is ZCODE Web Portfolio Old Version.
 - JavaScript
 - Framework Bootstrap
 
-## My Instagram :
+## My Instagram
 - [@azein25](https://www.instagram.com/azein25/) 
 - [@zcode25](https://www.instagram.com/zcode25/)
